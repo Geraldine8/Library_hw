@@ -42,7 +42,7 @@ public class LibraryTest {
     }
 
     @Test
-    public void cannotAddBook(){
+    public void canAddBook(){
         library.addBook(book1);
         library.addBook(book2);
         library.addBook(book3);

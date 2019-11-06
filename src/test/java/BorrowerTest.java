@@ -25,12 +25,21 @@ public class BorrowerTest {
 
     }
 
+//    @Test
+//    public void borrowerTakesBook(){
+//        borrower.borrowsBook(library, book1);
+//        assertEquals(1, borrower.collectionSize());
+//    }
+
+    @Test
+    public void collectionSize(){
+        assertEquals(0, borrower.collectionSize());
+    }
+
     @Test
     public void borrowerTakesBook(){
         borrower.borrowsBook(library, book1);
         assertEquals(1, borrower.collectionSize());
     }
-
-
 
 }

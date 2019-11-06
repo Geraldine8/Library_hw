@@ -31,6 +31,8 @@ public class Library {
         return this.capacity > this.checkCollectionSize();
     }
 
+
+    //Borrower method
     public Book removeBook(Book book){
         this.collection.remove(book);
         return book;
